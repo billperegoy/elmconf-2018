@@ -14,7 +14,7 @@ We use state machines all the time in our applications, sometimes without even k
 it. Most applications have discrete, legal states and a well-defined set of actions
 that cause legal state transitions. In many cases, we represent our state
 machines in an ad hoc fashion and miss out on the opportunities that a strong
-type system provides us. In this talk, We will explore how to use the Elm
+type system provides us. In this talk, we will explore how to use the Elm
 architecture and Elm union types to build state machines in our applications.
 Through a number of examples, we'll see how the Elm architecture can be
 leveraged using the Elm type system to produce reliable, maintainable
@@ -39,7 +39,9 @@ that using more union types allows us to create applications with fewer invalid
 states and more expressive types. Once we start to identify the state machines
 in our applications, we begin to find even more powerful ways to express our
 ideas. We end up with code that matches our high-level thinking about the problem at
-hand. I worked for many years designing semiconductor chips which were largely
+hand.
+
+I worked for many years designing semiconductor chips which were largely
 based around hardware implementations of finite state machines. My goal for this
 talk is to translate this knowledge into a strategy for building expressive
 Elm applications using state machines based on Elm union types.
